@@ -1,7 +1,6 @@
-!pip install pymorphy3
 import nltk
-from nltk.tokenize import word_tokenize
 from nltk import sent_tokenize
+from nltk.tokenize import word_tokenize
 import pymorphy3
 nltk.download('punkt')
 nltk.download('punkt_tab')
