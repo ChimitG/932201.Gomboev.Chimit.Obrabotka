@@ -3,8 +3,8 @@ import numpy as np
 import torch
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
 
-np.random.seed(43)
-torch.manual_seed(43)
+np.random.seed(42)
+torch.manual_seed(42)
 
 def generate(
             model, tok, text,
